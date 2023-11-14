@@ -1,3 +1,9 @@
+## [Home](index.md)
+
+
+## [Functional requirements](func_req.md)
+
+
 What you can do:
 - find friends
 - chat with a friend
