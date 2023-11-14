@@ -6,11 +6,11 @@
 **Jimba** is a social network that will help you to keep in touch with your friends and sharing with them what's on your mind!
 
 
-## [Functional requirements](#Functional requirements)
+## [Functional requirements](#functional-requirements)
 
 ## [Database scheme](db.md)
 
-
+----
 
 ## Functional requirements
 
