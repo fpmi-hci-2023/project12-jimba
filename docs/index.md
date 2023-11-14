@@ -12,7 +12,7 @@
 
 
 
-## [Functional requirements]
+## Functional requirements
 
 What you can do:
 - find friends
