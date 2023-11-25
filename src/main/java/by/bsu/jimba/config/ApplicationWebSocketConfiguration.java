@@ -1,4 +1,4 @@
-package kl.socialnetwork.config;
+package by.bsu.jimba.config;
 
 import io.jsonwebtoken.Jwts;
 import kl.socialnetwork.domain.entities.User;

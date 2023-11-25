@@ -1,4 +1,4 @@
-package kl.socialnetwork.web.controllers;
+package by.bsu.jimba.controllers;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import kl.socialnetwork.domain.models.bindingModels.message.MessageCreateBindingModel;

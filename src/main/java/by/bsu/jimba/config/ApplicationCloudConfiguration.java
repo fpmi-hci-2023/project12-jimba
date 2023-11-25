@@ -1,4 +1,4 @@
-package kl.socialnetwork.config;
+package by.bsu.jimba.config;
 
 import com.cloudinary.Cloudinary;
 import org.springframework.beans.factory.annotation.Value;

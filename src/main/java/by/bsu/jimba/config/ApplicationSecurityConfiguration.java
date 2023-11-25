@@ -1,4 +1,4 @@
-package kl.socialnetwork.config;
+package by.bsu.jimba.config;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import kl.socialnetwork.services.LoggerService;

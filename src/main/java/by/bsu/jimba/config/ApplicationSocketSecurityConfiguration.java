@@ -1,4 +1,4 @@
-package kl.socialnetwork.config;
+package by.bsu.jimba.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.messaging.MessageSecurityMetadataSourceRegistry;

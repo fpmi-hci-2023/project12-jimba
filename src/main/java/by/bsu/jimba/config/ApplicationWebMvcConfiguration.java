@@ -1,4 +1,4 @@
-package kl.socialnetwork.config;
+package by.bsu.jimba.config;
 
 import kl.socialnetwork.web.interceptors.LogsInterceptor;
 import org.springframework.beans.factory.annotation.Autowired;
