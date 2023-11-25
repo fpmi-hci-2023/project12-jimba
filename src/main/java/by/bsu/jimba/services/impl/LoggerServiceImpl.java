@@ -1,4 +1,4 @@
-package kl.socialnetwork.servicesImpl;
+package by.bsu.jimba.services.servicesImpl;
 
 import kl.socialnetwork.domain.entities.Logger;
 import kl.socialnetwork.domain.models.serviceModels.LoggerServiceModel;

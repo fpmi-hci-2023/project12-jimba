@@ -1,4 +1,4 @@
-package kl.socialnetwork.utils.modelMapper;
+package by.bsu.jimba.utils.modelMapper;
 
 import org.modelmapper.ModelMapper;
 

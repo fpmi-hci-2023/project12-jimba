@@ -1,4 +1,4 @@
-package kl.socialnetwork.validations.serviceValidation.services;
+package by.bsu.jimba.validations.serviceValidation.services;
 
 import org.springframework.web.multipart.MultipartFile;
 

@@ -1,4 +1,4 @@
-package kl.socialnetwork.web.filters;
+package by.bsu.jimba.filters;
 
 import io.jsonwebtoken.Jwts;
 import kl.socialnetwork.services.UserService;

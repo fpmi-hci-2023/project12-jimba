@@ -1,4 +1,4 @@
-package kl.socialnetwork.utils.entitiesSeed;
+package by.bsu.jimba.utils.entitiesSeed;
 
 import kl.socialnetwork.domain.entities.UserRole;
 import kl.socialnetwork.repositories.RoleRepository;

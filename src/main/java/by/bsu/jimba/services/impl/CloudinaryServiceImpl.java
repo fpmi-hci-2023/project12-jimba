@@ -1,4 +1,4 @@
-package kl.socialnetwork.servicesImpl;
+package by.bsu.jimba.services.servicesImpl;
 
 import com.cloudinary.Api;
 import com.cloudinary.Cloudinary;

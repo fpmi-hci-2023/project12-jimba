@@ -1,4 +1,4 @@
-package kl.socialnetwork.repositories;
+package by.bsu.jimba.repositories;
 
 import kl.socialnetwork.domain.entities.Picture;
 import org.springframework.data.jpa.repository.JpaRepository;

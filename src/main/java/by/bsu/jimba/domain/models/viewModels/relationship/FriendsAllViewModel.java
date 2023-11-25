@@ -1,4 +1,4 @@
-package kl.socialnetwork.domain.models.viewModels.relationship;
+package by.bsu.jimba.domain.models.viewModels.relationship;
 
 public class FriendsAllViewModel {
     private String id;

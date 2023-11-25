@@ -1,4 +1,4 @@
-package kl.socialnetwork.web.interceptors;
+package by.bsu.jimba.filters;
 
 import kl.socialnetwork.services.LoggerService;
 import org.springframework.stereotype.Component;

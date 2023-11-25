@@ -1,4 +1,4 @@
-package kl.socialnetwork.utils.constants;
+package by.bsu.jimba.utils.constants;
 
 public final class ResponseMessageConstants {
 

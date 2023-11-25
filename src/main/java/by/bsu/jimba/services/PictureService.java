@@ -1,4 +1,4 @@
-package kl.socialnetwork.services;
+package by.bsu.jimba.services;
 
 import kl.socialnetwork.domain.models.serviceModels.PictureServiceModel;
 import org.springframework.web.multipart.MultipartFile;

@@ -1,4 +1,4 @@
-package kl.socialnetwork.validations.serviceValidation.servicesImpl;
+package by.bsu.jimba.validations.serviceValidation.servicesImpl;
 
 import kl.socialnetwork.validations.serviceValidation.services.CloudinaryValidationService;
 import org.springframework.stereotype.Component;

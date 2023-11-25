@@ -1,4 +1,4 @@
-package kl.socialnetwork.utils.responseHandler.successResponse;
+package by.bsu.jimba.utils.responseHandler.successResponse;
 
 import java.io.Serializable;
 import java.time.LocalDateTime;

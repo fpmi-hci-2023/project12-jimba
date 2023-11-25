@@ -1,4 +1,4 @@
-package kl.socialnetwork.validations.annotations;
+package by.bsu.jimba.validations.annotations;
 
 import kl.socialnetwork.domain.entities.User;
 import kl.socialnetwork.services.UserService;

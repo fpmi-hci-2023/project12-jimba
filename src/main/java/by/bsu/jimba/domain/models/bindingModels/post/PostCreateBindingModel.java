@@ -1,4 +1,4 @@
-package kl.socialnetwork.domain.models.bindingModels.post;
+package by.bsu.jimba.domain.models.bindingModels.post;
 
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;

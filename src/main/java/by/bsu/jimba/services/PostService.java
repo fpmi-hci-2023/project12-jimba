@@ -1,4 +1,4 @@
-package kl.socialnetwork.services;
+package by.bsu.jimba.services;
 
 import kl.socialnetwork.domain.models.bindingModels.post.PostCreateBindingModel;
 import kl.socialnetwork.domain.models.serviceModels.PostServiceModel;

@@ -1,4 +1,4 @@
-package kl.socialnetwork.domain.models.viewModels.logger;
+package by.bsu.jimba.domain.models.viewModels.logger;
 
 public class LoggerViewModel {
     private String id;

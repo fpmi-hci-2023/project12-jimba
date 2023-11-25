@@ -1,4 +1,4 @@
-package kl.socialnetwork.domain.models.viewModels.user;
+package by.bsu.jimba.domain.models.viewModels.user;
 
 public class UserCreateViewModel {
     private String id;

@@ -1,4 +1,4 @@
-package kl.socialnetwork.web.filters;
+package by.bsu.jimba.filters;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.jsonwebtoken.Jwts;

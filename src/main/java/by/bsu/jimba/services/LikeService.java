@@ -1,4 +1,4 @@
-package kl.socialnetwork.services;
+package by.bsu.jimba.services;
 
 public interface LikeService {
 

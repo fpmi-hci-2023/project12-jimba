@@ -1,4 +1,4 @@
-package kl.socialnetwork.domain.models.viewModels.comment;
+package by.bsu.jimba.domain.models.viewModels.comment;
 
 import java.time.LocalDateTime;
 

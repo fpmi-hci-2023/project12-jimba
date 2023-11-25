@@ -1,4 +1,4 @@
-package kl.socialnetwork.validations.serviceValidation.servicesImpl;
+package by.bsu.jimba.validations.serviceValidation.servicesImpl;
 
 import kl.socialnetwork.domain.entities.Post;
 import kl.socialnetwork.domain.models.bindingModels.post.PostCreateBindingModel;

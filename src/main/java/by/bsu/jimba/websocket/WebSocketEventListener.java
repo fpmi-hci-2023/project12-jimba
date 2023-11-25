@@ -1,4 +1,4 @@
-package kl.socialnetwork.web.websocket;
+package by.bsu.jimba.web.websocket;
 
 import kl.socialnetwork.domain.models.serviceModels.UserServiceModel;
 import kl.socialnetwork.services.UserService;

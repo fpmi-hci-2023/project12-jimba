@@ -1,4 +1,4 @@
-package kl.socialnetwork.domain.models.viewModels.post;
+package by.bsu.jimba.domain.models.viewModels.post;
 
 import kl.socialnetwork.domain.models.viewModels.comment.CommentAllViewModel;
 

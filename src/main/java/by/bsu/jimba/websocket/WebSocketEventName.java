@@ -1,4 +1,4 @@
-package kl.socialnetwork.web.websocket;
+package by.bsu.jimba.web.websocket;
 
 public enum WebSocketEventName {
     SUBSCRIBE(""),

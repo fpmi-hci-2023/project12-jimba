@@ -1,4 +1,4 @@
-package kl.socialnetwork.domain.models.serviceModels;
+package by.bsu.jimba.domain.models.serviceModels;
 
 import kl.socialnetwork.domain.entities.UserRole;
 

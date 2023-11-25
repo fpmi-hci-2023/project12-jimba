@@ -1,4 +1,5 @@
-package kl.socialnetwork.utils.responseHandler.exceptions;
+package by.bsu.jimba.utils.responseHandler.exceptions;
+
 import java.util.Date;
 
 public class ExceptionResponse {

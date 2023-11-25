@@ -1,4 +1,4 @@
-package kl.socialnetwork.servicesImpl;
+package by.bsu.jimba.services.servicesImpl;
 
 import kl.socialnetwork.domain.entities.Comment;
 import kl.socialnetwork.domain.entities.Post;

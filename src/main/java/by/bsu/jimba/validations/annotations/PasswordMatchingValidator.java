@@ -1,4 +1,4 @@
-package kl.socialnetwork.validations.annotations;
+package by.bsu.jimba.validations.annotations;
 
 import kl.socialnetwork.domain.models.bindingModels.user.UserRegisterBindingModel;
 import org.springframework.stereotype.Component;

@@ -1,4 +1,5 @@
-package kl.socialnetwork.web.websocket;
+package by.bsu.jimba.web.websocket;
+
 
 import kl.socialnetwork.domain.entities.User;
 import org.springframework.security.authentication.AbstractAuthenticationToken;
