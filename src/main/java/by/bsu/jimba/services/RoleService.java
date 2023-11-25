@@ -1,6 +1,6 @@
 package by.bsu.jimba.services;
 
-import kl.socialnetwork.domain.entities.UserRole;
+import by.bsu.jimba.domain.entities.UserRole;
 
 public interface RoleService {
     boolean persist(UserRole role) throws Exception;

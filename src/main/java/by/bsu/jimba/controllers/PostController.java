@@ -1,12 +1,12 @@
 package by.bsu.jimba.controllers;
 
+import by.bsu.jimba.domain.models.bindingModels.post.PostCreateBindingModel;
+import by.bsu.jimba.domain.models.serviceModels.PostServiceModel;
+import by.bsu.jimba.domain.models.viewModels.post.PostAllViewModel;
+import by.bsu.jimba.services.PostService;
+import by.bsu.jimba.utils.responseHandler.exceptions.CustomException;
+import by.bsu.jimba.utils.responseHandler.successResponse.SuccessResponse;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import kl.socialnetwork.domain.models.bindingModels.post.PostCreateBindingModel;
-import kl.socialnetwork.domain.models.serviceModels.PostServiceModel;
-import kl.socialnetwork.domain.models.viewModels.post.PostAllViewModel;
-import kl.socialnetwork.services.PostService;
-import kl.socialnetwork.utils.responseHandler.exceptions.CustomException;
-import kl.socialnetwork.utils.responseHandler.successResponse.SuccessResponse;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -22,7 +22,7 @@ import java.util.Map;
 import java.util.concurrent.CompletableFuture;
 import java.util.stream.Collectors;
 
-import static kl.socialnetwork.utils.constants.ResponseMessageConstants.*;
+import static by.bsu.jimba.utils.constants.ResponseMessageConstants.*;
 
 @RestController()
 @RequestMapping(value = "/post")

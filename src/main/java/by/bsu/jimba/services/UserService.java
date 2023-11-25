@@ -1,10 +1,10 @@
 package by.bsu.jimba.services;
 
-import kl.socialnetwork.domain.entities.User;
-import kl.socialnetwork.domain.models.serviceModels.UserServiceModel;
-import kl.socialnetwork.domain.models.viewModels.user.UserCreateViewModel;
-import kl.socialnetwork.domain.models.viewModels.user.UserDetailsViewModel;
-import kl.socialnetwork.domain.models.viewModels.user.UserEditViewModel;
+import by.bsu.jimba.domain.entities.User;
+import by.bsu.jimba.domain.models.serviceModels.UserServiceModel;
+import by.bsu.jimba.domain.models.viewModels.user.UserCreateViewModel;
+import by.bsu.jimba.domain.models.viewModels.user.UserDetailsViewModel;
+import by.bsu.jimba.domain.models.viewModels.user.UserEditViewModel;
 import org.springframework.security.core.userdetails.UserDetailsService;
 
 import java.util.List;

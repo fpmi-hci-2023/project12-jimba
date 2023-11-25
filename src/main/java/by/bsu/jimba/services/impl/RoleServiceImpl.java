@@ -1,15 +1,15 @@
-package by.bsu.jimba.services.servicesImpl;
+package by.bsu.jimba.services.impl;
 
-import kl.socialnetwork.domain.entities.UserRole;
-import kl.socialnetwork.repositories.RoleRepository;
-import kl.socialnetwork.services.RoleService;
-import kl.socialnetwork.validations.serviceValidation.services.RoleValidationService;
+import by.bsu.jimba.domain.entities.UserRole;
+import by.bsu.jimba.repositories.RoleRepository;
+import by.bsu.jimba.services.RoleService;
+import by.bsu.jimba.validations.serviceValidation.services.RoleValidationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
 
-import static kl.socialnetwork.utils.constants.ResponseMessageConstants.SERVER_ERROR_MESSAGE;
+import static by.bsu.jimba.utils.constants.ResponseMessageConstants.SERVER_ERROR_MESSAGE;
 
 @Service
 @Transactional

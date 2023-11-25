@@ -1,4 +1,4 @@
-package by.bsu.jimba.entities;
+package by.bsu.jimba.domain.entities;
 
 import org.hibernate.annotations.GenericGenerator;
 

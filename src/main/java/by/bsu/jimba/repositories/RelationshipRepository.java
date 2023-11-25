@@ -1,6 +1,6 @@
 package by.bsu.jimba.repositories;
 
-import kl.socialnetwork.domain.entities.Relationship;
+import by.bsu.jimba.domain.entities.Relationship;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

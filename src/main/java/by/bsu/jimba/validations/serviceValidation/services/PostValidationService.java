@@ -1,7 +1,8 @@
 package by.bsu.jimba.validations.serviceValidation.services;
 
-import kl.socialnetwork.domain.entities.Post;
-import kl.socialnetwork.domain.models.bindingModels.post.PostCreateBindingModel;
+
+import by.bsu.jimba.domain.entities.Post;
+import by.bsu.jimba.domain.models.bindingModels.post.PostCreateBindingModel;
 
 public interface PostValidationService {
     boolean isValid(Post post);

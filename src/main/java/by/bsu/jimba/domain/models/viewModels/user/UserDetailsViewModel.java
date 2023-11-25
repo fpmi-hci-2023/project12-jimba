@@ -1,6 +1,6 @@
 package by.bsu.jimba.domain.models.viewModels.user;
 
-import kl.socialnetwork.domain.entities.UserRole;
+import by.bsu.jimba.domain.entities.UserRole;
 
 import java.util.Set;
 

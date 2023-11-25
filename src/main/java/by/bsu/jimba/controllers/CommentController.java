@@ -1,11 +1,11 @@
 package by.bsu.jimba.controllers;
 
+import by.bsu.jimba.domain.models.bindingModels.comment.CommentCreateBindingModel;
+import by.bsu.jimba.services.CommentService;
+import by.bsu.jimba.utils.constants.ResponseMessageConstants;
+import by.bsu.jimba.utils.responseHandler.exceptions.CustomException;
+import by.bsu.jimba.utils.responseHandler.successResponse.SuccessResponse;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import kl.socialnetwork.domain.models.bindingModels.comment.CommentCreateBindingModel;
-import kl.socialnetwork.services.CommentService;
-import kl.socialnetwork.utils.constants.ResponseMessageConstants;
-import kl.socialnetwork.utils.responseHandler.exceptions.CustomException;
-import kl.socialnetwork.utils.responseHandler.successResponse.SuccessResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -16,7 +16,7 @@ import java.time.LocalDateTime;
 import java.util.Map;
 import java.util.concurrent.CompletableFuture;
 
-import static kl.socialnetwork.utils.constants.ResponseMessageConstants.*;
+import static by.bsu.jimba.utils.constants.ResponseMessageConstants.*;
 
 @RestController()
 @RequestMapping(value = "/comment")

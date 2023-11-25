@@ -1,7 +1,7 @@
 package by.bsu.jimba.services;
 
-import kl.socialnetwork.domain.models.serviceModels.RelationshipServiceModel;
-import kl.socialnetwork.domain.models.viewModels.relationship.FriendsCandidatesViewModel;
+import by.bsu.jimba.domain.models.serviceModels.RelationshipServiceModel;
+import by.bsu.jimba.domain.models.viewModels.relationship.FriendsCandidatesViewModel;
 
 import java.util.List;
 

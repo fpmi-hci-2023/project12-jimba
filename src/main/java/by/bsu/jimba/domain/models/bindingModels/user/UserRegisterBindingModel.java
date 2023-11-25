@@ -1,10 +1,10 @@
 package by.bsu.jimba.domain.models.bindingModels.user;
 
-import kl.socialnetwork.utils.constants.ValidationMessageConstants;
-import kl.socialnetwork.validations.annotations.Password;
-import kl.socialnetwork.validations.annotations.PasswordMatching;
-import kl.socialnetwork.validations.annotations.UniqueEmail;
-import kl.socialnetwork.validations.annotations.UniqueUsername;
+import by.bsu.jimba.utils.constants.ValidationMessageConstants;
+import by.bsu.jimba.validations.annotations.Password;
+import by.bsu.jimba.validations.annotations.PasswordMatching;
+import by.bsu.jimba.validations.annotations.UniqueEmail;
+import by.bsu.jimba.validations.annotations.UniqueUsername;
 import org.hibernate.validator.constraints.Length;
 
 import javax.validation.constraints.NotNull;

@@ -1,7 +1,7 @@
 package by.bsu.jimba.domain.models.serviceModels;
 
-import kl.socialnetwork.domain.entities.Post;
-import kl.socialnetwork.domain.entities.User;
+import by.bsu.jimba.domain.entities.Post;
+import by.bsu.jimba.domain.entities.User;
 
 import java.time.LocalDateTime;
 

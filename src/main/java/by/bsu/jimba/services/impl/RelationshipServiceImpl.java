@@ -1,14 +1,14 @@
-package by.bsu.jimba.services.servicesImpl;
+package by.bsu.jimba.services.impl;
 
-import kl.socialnetwork.domain.entities.Relationship;
-import kl.socialnetwork.domain.entities.User;
-import kl.socialnetwork.domain.models.serviceModels.RelationshipServiceModel;
-import kl.socialnetwork.domain.models.viewModels.relationship.FriendsCandidatesViewModel;
-import kl.socialnetwork.repositories.RelationshipRepository;
-import kl.socialnetwork.repositories.UserRepository;
-import kl.socialnetwork.services.RelationshipService;
-import kl.socialnetwork.validations.serviceValidation.services.RelationshipValidationService;
-import kl.socialnetwork.validations.serviceValidation.services.UserValidationService;
+import by.bsu.jimba.domain.entities.Relationship;
+import by.bsu.jimba.domain.entities.User;
+import by.bsu.jimba.domain.models.serviceModels.RelationshipServiceModel;
+import by.bsu.jimba.domain.models.viewModels.relationship.FriendsCandidatesViewModel;
+import by.bsu.jimba.repositories.RelationshipRepository;
+import by.bsu.jimba.repositories.UserRepository;
+import by.bsu.jimba.services.RelationshipService;
+import by.bsu.jimba.validations.serviceValidation.services.RelationshipValidationService;
+import by.bsu.jimba.validations.serviceValidation.services.UserValidationService;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

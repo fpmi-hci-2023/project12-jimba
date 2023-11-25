@@ -1,8 +1,8 @@
 package by.bsu.jimba.domain.models.serviceModels;
 
-import kl.socialnetwork.domain.entities.Comment;
-import kl.socialnetwork.domain.entities.Like;
-import kl.socialnetwork.domain.entities.User;
+import by.bsu.jimba.domain.entities.Comment;
+import by.bsu.jimba.domain.entities.Like;
+import by.bsu.jimba.domain.entities.User;
 
 import java.time.LocalDateTime;
 import java.util.List;

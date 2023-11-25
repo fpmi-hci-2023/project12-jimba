@@ -1,6 +1,6 @@
 package by.bsu.jimba.domain.models.viewModels.post;
 
-import kl.socialnetwork.domain.models.viewModels.comment.CommentAllViewModel;
+import by.bsu.jimba.domain.models.viewModels.comment.CommentAllViewModel;
 
 import java.time.LocalDateTime;
 import java.util.List;

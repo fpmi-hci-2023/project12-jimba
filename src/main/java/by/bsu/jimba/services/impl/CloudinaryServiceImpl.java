@@ -1,9 +1,9 @@
-package by.bsu.jimba.services.servicesImpl;
+package by.bsu.jimba.services.impl;
 
+import by.bsu.jimba.services.CloudinaryService;
+import by.bsu.jimba.validations.serviceValidation.services.CloudinaryValidationService;
 import com.cloudinary.Api;
 import com.cloudinary.Cloudinary;
-import kl.socialnetwork.services.CloudinaryService;
-import kl.socialnetwork.validations.serviceValidation.services.CloudinaryValidationService;
 import org.json.simple.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -14,7 +14,7 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 
-import static kl.socialnetwork.utils.constants.ResponseMessageConstants.SERVER_ERROR_MESSAGE;
+import static by.bsu.jimba.utils.constants.ResponseMessageConstants.SERVER_ERROR_MESSAGE;
 
 @Service
 public class CloudinaryServiceImpl implements CloudinaryService {

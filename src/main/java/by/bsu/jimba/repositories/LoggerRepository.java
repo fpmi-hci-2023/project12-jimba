@@ -1,6 +1,6 @@
 package by.bsu.jimba.repositories;
 
-import kl.socialnetwork.domain.entities.Logger;
+import by.bsu.jimba.domain.entities.Logger;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.stereotype.Repository;

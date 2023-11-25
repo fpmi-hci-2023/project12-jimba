@@ -1,6 +1,6 @@
 package by.bsu.jimba.config;
 
-import kl.socialnetwork.web.interceptors.LogsInterceptor;
+import by.bsu.jimba.interceptors.LogsInterceptor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

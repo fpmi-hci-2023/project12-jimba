@@ -1,10 +1,10 @@
 package by.bsu.jimba.controllers;
 
+import by.bsu.jimba.services.LikeService;
+import by.bsu.jimba.utils.constants.ResponseMessageConstants;
+import by.bsu.jimba.utils.responseHandler.exceptions.CustomException;
+import by.bsu.jimba.utils.responseHandler.successResponse.SuccessResponse;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import kl.socialnetwork.services.LikeService;
-import kl.socialnetwork.utils.constants.ResponseMessageConstants;
-import kl.socialnetwork.utils.responseHandler.exceptions.CustomException;
-import kl.socialnetwork.utils.responseHandler.successResponse.SuccessResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
 import java.time.LocalDateTime;
 import java.util.Map;
 
-import static kl.socialnetwork.utils.constants.ResponseMessageConstants.SUCCESSFUL_LIKE_POST_MESSAGE;
+import static by.bsu.jimba.utils.constants.ResponseMessageConstants.SUCCESSFUL_LIKE_POST_MESSAGE;
 
 @RestController()
 @RequestMapping(value = "/like")

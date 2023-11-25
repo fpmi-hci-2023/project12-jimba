@@ -1,6 +1,6 @@
 package by.bsu.jimba.utils.responseHandler.exceptions;
 
-import kl.socialnetwork.utils.constants.ResponseMessageConstants;
+import by.bsu.jimba.utils.constants.ResponseMessageConstants;
 import org.springframework.context.support.DefaultMessageSourceResolvable;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;

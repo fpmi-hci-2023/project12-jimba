@@ -1,11 +1,11 @@
 package by.bsu.jimba.config;
 
+import by.bsu.jimba.domain.entities.User;
+import by.bsu.jimba.services.UserService;
+import by.bsu.jimba.utils.responseHandler.exceptions.CustomException;
+import by.bsu.jimba.validations.serviceValidation.services.UserValidationService;
+import by.bsu.jimba.websocket.JWTAuthenticationToken;
 import io.jsonwebtoken.Jwts;
-import kl.socialnetwork.domain.entities.User;
-import kl.socialnetwork.services.UserService;
-import kl.socialnetwork.utils.responseHandler.exceptions.CustomException;
-import kl.socialnetwork.web.websocket.JWTAuthenticationToken;
-import kl.socialnetwork.validations.serviceValidation.services.UserValidationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.Ordered;
@@ -25,7 +25,7 @@ import org.springframework.web.socket.config.annotation.WebSocketMessageBrokerCo
 
 import java.util.Optional;
 
-import static kl.socialnetwork.utils.constants.ResponseMessageConstants.UNAUTHORIZED_SERVER_ERROR_MESSAGE;
+import static by.bsu.jimba.utils.constants.ResponseMessageConstants.UNAUTHORIZED_SERVER_ERROR_MESSAGE;
 
 @Configuration
 @EnableWebSocketMessageBroker

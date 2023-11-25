@@ -1,6 +1,6 @@
 package by.bsu.jimba.domain.models.bindingModels.user;
 
-import kl.socialnetwork.utils.constants.ValidationMessageConstants;
+import by.bsu.jimba.utils.constants.ValidationMessageConstants;
 import org.hibernate.validator.constraints.Length;
 
 import javax.validation.constraints.NotNull;

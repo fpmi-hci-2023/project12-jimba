@@ -1,6 +1,6 @@
 package by.bsu.jimba.services;
 
-import kl.socialnetwork.domain.models.serviceModels.LoggerServiceModel;
+import by.bsu.jimba.domain.models.serviceModels.LoggerServiceModel;
 
 import java.util.List;
 

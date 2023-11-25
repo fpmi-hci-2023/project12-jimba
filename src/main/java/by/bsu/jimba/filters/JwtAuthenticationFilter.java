@@ -1,13 +1,13 @@
 package by.bsu.jimba.filters;
 
+import by.bsu.jimba.domain.entities.User;
+import by.bsu.jimba.domain.models.bindingModels.user.UserLoginBindingModel;
+import by.bsu.jimba.services.LoggerService;
+import by.bsu.jimba.services.UserService;
+import by.bsu.jimba.utils.responseHandler.exceptions.CustomException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
-import kl.socialnetwork.domain.entities.User;
-import kl.socialnetwork.domain.models.bindingModels.user.UserLoginBindingModel;
-import kl.socialnetwork.services.LoggerService;
-import kl.socialnetwork.services.UserService;
-import kl.socialnetwork.utils.responseHandler.exceptions.CustomException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

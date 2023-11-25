@@ -1,12 +1,12 @@
 package by.bsu.jimba.controllers;
 
+import by.bsu.jimba.domain.models.bindingModels.message.MessageCreateBindingModel;
+import by.bsu.jimba.domain.models.serviceModels.MessageServiceModel;
+import by.bsu.jimba.domain.models.viewModels.message.MessageAllViewModel;
+import by.bsu.jimba.domain.models.viewModels.message.MessageFriendsViewModel;
+import by.bsu.jimba.services.MessageService;
+import by.bsu.jimba.utils.responseHandler.exceptions.CustomException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import kl.socialnetwork.domain.models.bindingModels.message.MessageCreateBindingModel;
-import kl.socialnetwork.domain.models.serviceModels.MessageServiceModel;
-import kl.socialnetwork.domain.models.viewModels.message.MessageAllViewModel;
-import kl.socialnetwork.domain.models.viewModels.message.MessageFriendsViewModel;
-import kl.socialnetwork.services.MessageService;
-import kl.socialnetwork.utils.responseHandler.exceptions.CustomException;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.messaging.handler.annotation.MessageMapping;
@@ -20,7 +20,7 @@ import java.security.Principal;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import static kl.socialnetwork.utils.constants.ResponseMessageConstants.*;
+import static by.bsu.jimba.utils.constants.ResponseMessageConstants.SERVER_ERROR_MESSAGE;
 
 @RestController()
 @RequestMapping(value = "/message")

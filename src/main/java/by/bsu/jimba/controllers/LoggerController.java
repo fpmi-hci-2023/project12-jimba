@@ -1,12 +1,12 @@
 package by.bsu.jimba.controllers;
 
+import by.bsu.jimba.domain.models.serviceModels.LoggerServiceModel;
+import by.bsu.jimba.domain.models.viewModels.logger.LoggerViewModel;
+import by.bsu.jimba.services.LoggerService;
+import by.bsu.jimba.utils.responseHandler.exceptions.CustomException;
+import by.bsu.jimba.utils.responseHandler.successResponse.SuccessResponse;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import kl.socialnetwork.domain.models.serviceModels.LoggerServiceModel;
-import kl.socialnetwork.domain.models.viewModels.logger.LoggerViewModel;
-import kl.socialnetwork.services.LoggerService;
-import kl.socialnetwork.utils.responseHandler.exceptions.CustomException;
-import kl.socialnetwork.utils.responseHandler.successResponse.SuccessResponse;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -18,7 +18,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import static kl.socialnetwork.utils.constants.ResponseMessageConstants.*;
+import static by.bsu.jimba.utils.constants.ResponseMessageConstants.*;
 
 @RestController
 @RequestMapping(value = "/logs")

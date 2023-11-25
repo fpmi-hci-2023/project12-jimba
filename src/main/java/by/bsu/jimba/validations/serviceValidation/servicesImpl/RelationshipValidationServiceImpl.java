@@ -1,7 +1,7 @@
 package by.bsu.jimba.validations.serviceValidation.servicesImpl;
 
-import kl.socialnetwork.domain.entities.Relationship;
-import kl.socialnetwork.validations.serviceValidation.services.RelationshipValidationService;
+import by.bsu.jimba.domain.entities.Relationship;
+import by.bsu.jimba.validations.serviceValidation.services.RelationshipValidationService;
 import org.springframework.stereotype.Component;
 
 @Component

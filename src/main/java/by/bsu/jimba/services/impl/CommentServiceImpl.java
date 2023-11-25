@@ -1,20 +1,20 @@
-package by.bsu.jimba.services.servicesImpl;
+package by.bsu.jimba.services.impl;
 
-import kl.socialnetwork.domain.entities.Comment;
-import kl.socialnetwork.domain.entities.Post;
-import kl.socialnetwork.domain.entities.User;
-import kl.socialnetwork.domain.entities.UserRole;
-import kl.socialnetwork.domain.models.bindingModels.comment.CommentCreateBindingModel;
-import kl.socialnetwork.domain.models.serviceModels.CommentServiceModel;
-import kl.socialnetwork.repositories.CommentRepository;
-import kl.socialnetwork.repositories.PostRepository;
-import kl.socialnetwork.repositories.RoleRepository;
-import kl.socialnetwork.repositories.UserRepository;
-import kl.socialnetwork.services.CommentService;
-import kl.socialnetwork.utils.responseHandler.exceptions.CustomException;
-import kl.socialnetwork.validations.serviceValidation.services.CommentValidationService;
-import kl.socialnetwork.validations.serviceValidation.services.PostValidationService;
-import kl.socialnetwork.validations.serviceValidation.services.UserValidationService;
+import by.bsu.jimba.domain.entities.Comment;
+import by.bsu.jimba.domain.entities.Post;
+import by.bsu.jimba.domain.entities.User;
+import by.bsu.jimba.domain.entities.UserRole;
+import by.bsu.jimba.domain.models.bindingModels.comment.CommentCreateBindingModel;
+import by.bsu.jimba.domain.models.serviceModels.CommentServiceModel;
+import by.bsu.jimba.repositories.CommentRepository;
+import by.bsu.jimba.repositories.PostRepository;
+import by.bsu.jimba.repositories.RoleRepository;
+import by.bsu.jimba.repositories.UserRepository;
+import by.bsu.jimba.services.CommentService;
+import by.bsu.jimba.utils.responseHandler.exceptions.CustomException;
+import by.bsu.jimba.validations.serviceValidation.services.CommentValidationService;
+import by.bsu.jimba.validations.serviceValidation.services.PostValidationService;
+import by.bsu.jimba.validations.serviceValidation.services.UserValidationService;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Async;
@@ -24,7 +24,7 @@ import org.springframework.transaction.annotation.Transactional;
 import java.time.LocalDateTime;
 import java.util.concurrent.CompletableFuture;
 
-import static kl.socialnetwork.utils.constants.ResponseMessageConstants.SERVER_ERROR_MESSAGE;
+import static by.bsu.jimba.utils.constants.ResponseMessageConstants.SERVER_ERROR_MESSAGE;
 
 @Service
 @Transactional

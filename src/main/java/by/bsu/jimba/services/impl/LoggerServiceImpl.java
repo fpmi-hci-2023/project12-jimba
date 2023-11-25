@@ -1,11 +1,11 @@
-package by.bsu.jimba.services.servicesImpl;
+package by.bsu.jimba.services.impl;
 
-import kl.socialnetwork.domain.entities.Logger;
-import kl.socialnetwork.domain.models.serviceModels.LoggerServiceModel;
-import kl.socialnetwork.repositories.LoggerRepository;
-import kl.socialnetwork.services.LoggerService;
-import kl.socialnetwork.utils.responseHandler.exceptions.CustomException;
-import kl.socialnetwork.validations.serviceValidation.services.LoggerValidationService;
+import by.bsu.jimba.domain.entities.Logger;
+import by.bsu.jimba.domain.models.serviceModels.LoggerServiceModel;
+import by.bsu.jimba.repositories.LoggerRepository;
+import by.bsu.jimba.services.LoggerService;
+import by.bsu.jimba.utils.responseHandler.exceptions.CustomException;
+import by.bsu.jimba.validations.serviceValidation.services.LoggerValidationService;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Scheduled;
@@ -15,7 +15,7 @@ import java.time.LocalDateTime;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import static kl.socialnetwork.utils.constants.ResponseMessageConstants.*;
+import static by.bsu.jimba.utils.constants.ResponseMessageConstants.*;
 
 @Service
 public class LoggerServiceImpl implements LoggerService {

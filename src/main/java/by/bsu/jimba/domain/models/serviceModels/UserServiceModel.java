@@ -1,6 +1,6 @@
 package by.bsu.jimba.domain.models.serviceModels;
 
-import kl.socialnetwork.domain.entities.UserRole;
+import by.bsu.jimba.domain.entities.UserRole;
 
 import java.io.Serializable;
 import java.util.HashSet;

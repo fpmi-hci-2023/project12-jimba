@@ -1,7 +1,7 @@
 package by.bsu.jimba.validations.serviceValidation.servicesImpl;
 
-import kl.socialnetwork.domain.models.serviceModels.LoggerServiceModel;
-import kl.socialnetwork.validations.serviceValidation.services.LoggerValidationService;
+import by.bsu.jimba.domain.models.serviceModels.LoggerServiceModel;
+import by.bsu.jimba.validations.serviceValidation.services.LoggerValidationService;
 import org.springframework.stereotype.Component;
 
 @Component

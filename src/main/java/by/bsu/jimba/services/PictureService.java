@@ -1,6 +1,6 @@
 package by.bsu.jimba.services;
 
-import kl.socialnetwork.domain.models.serviceModels.PictureServiceModel;
+import by.bsu.jimba.domain.models.serviceModels.PictureServiceModel;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.util.List;

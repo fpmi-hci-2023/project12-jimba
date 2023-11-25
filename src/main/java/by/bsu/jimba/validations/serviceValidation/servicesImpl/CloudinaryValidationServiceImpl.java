@@ -1,6 +1,6 @@
 package by.bsu.jimba.validations.serviceValidation.servicesImpl;
 
-import kl.socialnetwork.validations.serviceValidation.services.CloudinaryValidationService;
+import by.bsu.jimba.validations.serviceValidation.services.CloudinaryValidationService;
 import org.springframework.stereotype.Component;
 import org.springframework.web.multipart.MultipartFile;
 

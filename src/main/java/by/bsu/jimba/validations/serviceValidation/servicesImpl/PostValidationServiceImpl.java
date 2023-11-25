@@ -1,8 +1,8 @@
 package by.bsu.jimba.validations.serviceValidation.servicesImpl;
 
-import kl.socialnetwork.domain.entities.Post;
-import kl.socialnetwork.domain.models.bindingModels.post.PostCreateBindingModel;
-import kl.socialnetwork.validations.serviceValidation.services.PostValidationService;
+import by.bsu.jimba.domain.entities.Post;
+import by.bsu.jimba.domain.models.bindingModels.post.PostCreateBindingModel;
+import by.bsu.jimba.validations.serviceValidation.services.PostValidationService;
 import org.springframework.stereotype.Component;
 
 @Component

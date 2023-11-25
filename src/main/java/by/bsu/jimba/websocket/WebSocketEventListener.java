@@ -1,7 +1,7 @@
-package by.bsu.jimba.web.websocket;
+package by.bsu.jimba.websocket;
 
-import kl.socialnetwork.domain.models.serviceModels.UserServiceModel;
-import kl.socialnetwork.services.UserService;
+import by.bsu.jimba.domain.models.serviceModels.UserServiceModel;
+import by.bsu.jimba.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.event.EventListener;
 import org.springframework.messaging.simp.SimpMessageHeaderAccessor;
@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.socket.messaging.SessionConnectEvent;
 import org.springframework.web.socket.messaging.SessionDisconnectEvent;
 
-import static kl.socialnetwork.web.websocket.WebSocketEventName.*;
+import static by.bsu.jimba.websocket.WebSocketEventName.*;
 
 @Component
 public class WebSocketEventListener {

@@ -1,6 +1,6 @@
-package by.bsu.jimba.filters;
+package by.bsu.jimba.interceptors;
 
-import kl.socialnetwork.services.LoggerService;
+import by.bsu.jimba.services.LoggerService;
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
 

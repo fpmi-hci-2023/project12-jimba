@@ -1,6 +1,6 @@
 package by.bsu.jimba.repositories;
 
-import kl.socialnetwork.domain.entities.UserRole;
+import by.bsu.jimba.domain.entities.UserRole;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

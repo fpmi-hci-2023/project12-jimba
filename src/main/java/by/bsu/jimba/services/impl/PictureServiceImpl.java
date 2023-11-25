@@ -1,18 +1,18 @@
-package by.bsu.jimba.services.servicesImpl;
+package by.bsu.jimba.services.impl;
 
-import kl.socialnetwork.domain.entities.Picture;
-import kl.socialnetwork.domain.entities.User;
-import kl.socialnetwork.domain.entities.UserRole;
-import kl.socialnetwork.domain.models.serviceModels.PictureServiceModel;
-import kl.socialnetwork.repositories.PictureRepository;
-import kl.socialnetwork.repositories.RoleRepository;
-import kl.socialnetwork.repositories.UserRepository;
-import kl.socialnetwork.services.CloudinaryService;
-import kl.socialnetwork.services.PictureService;
-import kl.socialnetwork.utils.responseHandler.exceptions.CustomException;
-import kl.socialnetwork.validations.serviceValidation.services.CloudinaryValidationService;
-import kl.socialnetwork.validations.serviceValidation.services.PictureValidationService;
-import kl.socialnetwork.validations.serviceValidation.services.UserValidationService;
+import by.bsu.jimba.domain.entities.Picture;
+import by.bsu.jimba.domain.entities.User;
+import by.bsu.jimba.domain.entities.UserRole;
+import by.bsu.jimba.domain.models.serviceModels.PictureServiceModel;
+import by.bsu.jimba.repositories.PictureRepository;
+import by.bsu.jimba.repositories.RoleRepository;
+import by.bsu.jimba.repositories.UserRepository;
+import by.bsu.jimba.services.CloudinaryService;
+import by.bsu.jimba.services.PictureService;
+import by.bsu.jimba.utils.responseHandler.exceptions.CustomException;
+import by.bsu.jimba.validations.serviceValidation.services.CloudinaryValidationService;
+import by.bsu.jimba.validations.serviceValidation.services.PictureValidationService;
+import by.bsu.jimba.validations.serviceValidation.services.UserValidationService;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -25,8 +25,8 @@ import java.util.Map;
 import java.util.UUID;
 import java.util.stream.Collectors;
 
-import static kl.socialnetwork.utils.constants.ResponseMessageConstants.SERVER_ERROR_MESSAGE;
-import static kl.socialnetwork.utils.constants.ResponseMessageConstants.UNAUTHORIZED_SERVER_ERROR_MESSAGE;
+import static by.bsu.jimba.utils.constants.ResponseMessageConstants.SERVER_ERROR_MESSAGE;
+import static by.bsu.jimba.utils.constants.ResponseMessageConstants.UNAUTHORIZED_SERVER_ERROR_MESSAGE;
 
 @Service
 @Transactional

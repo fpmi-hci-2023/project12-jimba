@@ -1,21 +1,21 @@
-package by.bsu.jimba.services.servicesImpl;
+package by.bsu.jimba.services.impl;
 
-import kl.socialnetwork.domain.entities.Like;
-import kl.socialnetwork.domain.entities.Post;
-import kl.socialnetwork.domain.entities.User;
-import kl.socialnetwork.repositories.LikeRepository;
-import kl.socialnetwork.repositories.PostRepository;
-import kl.socialnetwork.repositories.UserRepository;
-import kl.socialnetwork.services.LikeService;
-import kl.socialnetwork.utils.responseHandler.exceptions.CustomException;
-import kl.socialnetwork.validations.serviceValidation.services.PostValidationService;
-import kl.socialnetwork.validations.serviceValidation.services.UserValidationService;
+import by.bsu.jimba.domain.entities.Like;
+import by.bsu.jimba.domain.entities.Post;
+import by.bsu.jimba.domain.entities.User;
+import by.bsu.jimba.repositories.LikeRepository;
+import by.bsu.jimba.repositories.PostRepository;
+import by.bsu.jimba.repositories.UserRepository;
+import by.bsu.jimba.services.LikeService;
+import by.bsu.jimba.utils.responseHandler.exceptions.CustomException;
+import by.bsu.jimba.validations.serviceValidation.services.PostValidationService;
+import by.bsu.jimba.validations.serviceValidation.services.UserValidationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import static kl.socialnetwork.utils.constants.ResponseMessageConstants.FAILURE_POST_LIKE_MESSAGE;
-import static kl.socialnetwork.utils.constants.ResponseMessageConstants.SERVER_ERROR_MESSAGE;
+import static by.bsu.jimba.utils.constants.ResponseMessageConstants.FAILURE_POST_LIKE_MESSAGE;
+import static by.bsu.jimba.utils.constants.ResponseMessageConstants.SERVER_ERROR_MESSAGE;
 
 @Service
 @Transactional

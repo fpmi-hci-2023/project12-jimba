@@ -1,7 +1,7 @@
 package by.bsu.jimba.services;
 
-import kl.socialnetwork.domain.models.bindingModels.post.PostCreateBindingModel;
-import kl.socialnetwork.domain.models.serviceModels.PostServiceModel;
+import by.bsu.jimba.domain.models.bindingModels.post.PostCreateBindingModel;
+import by.bsu.jimba.domain.models.serviceModels.PostServiceModel;
 
 import java.util.List;
 import java.util.concurrent.CompletableFuture;

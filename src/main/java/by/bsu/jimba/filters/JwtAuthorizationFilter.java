@@ -1,7 +1,7 @@
 package by.bsu.jimba.filters;
 
+import by.bsu.jimba.services.UserService;
 import io.jsonwebtoken.Jwts;
-import kl.socialnetwork.services.UserService;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.context.SecurityContextHolder;

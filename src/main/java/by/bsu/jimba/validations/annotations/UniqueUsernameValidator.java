@@ -1,7 +1,7 @@
 package by.bsu.jimba.validations.annotations;
 
-import kl.socialnetwork.domain.entities.User;
-import kl.socialnetwork.services.UserService;
+import by.bsu.jimba.domain.entities.User;
+import by.bsu.jimba.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

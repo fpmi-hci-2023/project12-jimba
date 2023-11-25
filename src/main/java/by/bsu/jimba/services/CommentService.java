@@ -1,6 +1,6 @@
 package by.bsu.jimba.services;
 
-import kl.socialnetwork.domain.models.bindingModels.comment.CommentCreateBindingModel;
+import by.bsu.jimba.domain.models.bindingModels.comment.CommentCreateBindingModel;
 
 import java.util.concurrent.CompletableFuture;
 

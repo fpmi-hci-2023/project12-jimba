@@ -1,8 +1,8 @@
 package by.bsu.jimba.services;
 
-import kl.socialnetwork.domain.models.bindingModels.message.MessageCreateBindingModel;
-import kl.socialnetwork.domain.models.serviceModels.MessageServiceModel;
-import kl.socialnetwork.domain.models.viewModels.message.MessageFriendsViewModel;
+import by.bsu.jimba.domain.models.bindingModels.message.MessageCreateBindingModel;
+import by.bsu.jimba.domain.models.serviceModels.MessageServiceModel;
+import by.bsu.jimba.domain.models.viewModels.message.MessageFriendsViewModel;
 
 import java.util.List;
 

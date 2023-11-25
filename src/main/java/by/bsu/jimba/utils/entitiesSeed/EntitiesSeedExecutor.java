@@ -1,7 +1,7 @@
 package by.bsu.jimba.utils.entitiesSeed;
 
-import kl.socialnetwork.domain.entities.UserRole;
-import kl.socialnetwork.repositories.RoleRepository;
+import by.bsu.jimba.domain.entities.UserRole;
+import by.bsu.jimba.repositories.RoleRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

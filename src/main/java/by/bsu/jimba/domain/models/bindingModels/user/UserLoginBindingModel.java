@@ -1,7 +1,7 @@
 package by.bsu.jimba.domain.models.bindingModels.user;
 
-import kl.socialnetwork.utils.constants.ValidationMessageConstants;
-import kl.socialnetwork.validations.annotations.Password;
+import by.bsu.jimba.utils.constants.ValidationMessageConstants;
+import by.bsu.jimba.validations.annotations.Password;
 
 import javax.validation.constraints.Pattern;
 import javax.validation.constraints.Size;

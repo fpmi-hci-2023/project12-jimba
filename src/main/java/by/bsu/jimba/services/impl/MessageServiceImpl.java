@@ -1,19 +1,19 @@
-package by.bsu.jimba.services.servicesImpl;
+package by.bsu.jimba.services.impl;
 
-import kl.socialnetwork.domain.entities.Message;
-import kl.socialnetwork.domain.entities.Relationship;
-import kl.socialnetwork.domain.entities.User;
-import kl.socialnetwork.domain.models.bindingModels.message.MessageCreateBindingModel;
-import kl.socialnetwork.domain.models.serviceModels.MessageServiceModel;
-import kl.socialnetwork.domain.models.viewModels.message.MessageFriendsViewModel;
-import kl.socialnetwork.repositories.MessageRepository;
-import kl.socialnetwork.repositories.RelationshipRepository;
-import kl.socialnetwork.repositories.UserRepository;
-import kl.socialnetwork.services.MessageService;
-import kl.socialnetwork.utils.responseHandler.exceptions.CustomException;
-import kl.socialnetwork.validations.serviceValidation.services.MessageValidationService;
-import kl.socialnetwork.validations.serviceValidation.services.RelationshipValidationService;
-import kl.socialnetwork.validations.serviceValidation.services.UserValidationService;
+import by.bsu.jimba.domain.entities.Message;
+import by.bsu.jimba.domain.entities.Relationship;
+import by.bsu.jimba.domain.entities.User;
+import by.bsu.jimba.domain.models.bindingModels.message.MessageCreateBindingModel;
+import by.bsu.jimba.domain.models.serviceModels.MessageServiceModel;
+import by.bsu.jimba.domain.models.viewModels.message.MessageFriendsViewModel;
+import by.bsu.jimba.repositories.MessageRepository;
+import by.bsu.jimba.repositories.RelationshipRepository;
+import by.bsu.jimba.repositories.UserRepository;
+import by.bsu.jimba.services.MessageService;
+import by.bsu.jimba.utils.responseHandler.exceptions.CustomException;
+import by.bsu.jimba.validations.serviceValidation.services.MessageValidationService;
+import by.bsu.jimba.validations.serviceValidation.services.RelationshipValidationService;
+import by.bsu.jimba.validations.serviceValidation.services.UserValidationService;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -23,7 +23,7 @@ import java.time.LocalDateTime;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import static kl.socialnetwork.utils.constants.ResponseMessageConstants.SERVER_ERROR_MESSAGE;
+import static by.bsu.jimba.utils.constants.ResponseMessageConstants.SERVER_ERROR_MESSAGE;
 
 @Service
 @Transactional

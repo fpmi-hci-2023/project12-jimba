@@ -1,11 +1,11 @@
 package by.bsu.jimba.controllers;
 
+import by.bsu.jimba.domain.models.viewModels.picture.PictureAllViewModel;
+import by.bsu.jimba.services.PictureService;
+import by.bsu.jimba.utils.constants.ResponseMessageConstants;
+import by.bsu.jimba.utils.responseHandler.exceptions.CustomException;
+import by.bsu.jimba.utils.responseHandler.successResponse.SuccessResponse;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import kl.socialnetwork.domain.models.viewModels.picture.PictureAllViewModel;
-import kl.socialnetwork.services.PictureService;
-import kl.socialnetwork.utils.constants.ResponseMessageConstants;
-import kl.socialnetwork.utils.responseHandler.exceptions.CustomException;
-import kl.socialnetwork.utils.responseHandler.successResponse.SuccessResponse;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -18,7 +18,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-import static kl.socialnetwork.utils.constants.ResponseMessageConstants.*;
+import static by.bsu.jimba.utils.constants.ResponseMessageConstants.*;
 
 @RestController()
 @RequestMapping(value = "/pictures")

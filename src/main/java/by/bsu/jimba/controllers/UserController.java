@@ -1,17 +1,17 @@
 package by.bsu.jimba.controllers;
 
+import by.bsu.jimba.domain.models.bindingModels.user.UserRegisterBindingModel;
+import by.bsu.jimba.domain.models.bindingModels.user.UserUpdateBindingModel;
+import by.bsu.jimba.domain.models.serviceModels.UserServiceModel;
+import by.bsu.jimba.domain.models.viewModels.user.UserAllViewModel;
+import by.bsu.jimba.domain.models.viewModels.user.UserCreateViewModel;
+import by.bsu.jimba.domain.models.viewModels.user.UserDetailsViewModel;
+import by.bsu.jimba.services.UserService;
+import by.bsu.jimba.utils.responseHandler.exceptions.BadRequestException;
+import by.bsu.jimba.utils.responseHandler.exceptions.CustomException;
+import by.bsu.jimba.utils.responseHandler.successResponse.SuccessResponse;
+import by.bsu.jimba.validations.serviceValidation.services.UserValidationService;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import kl.socialnetwork.domain.models.bindingModels.user.UserRegisterBindingModel;
-import kl.socialnetwork.domain.models.bindingModels.user.UserUpdateBindingModel;
-import kl.socialnetwork.domain.models.serviceModels.UserServiceModel;
-import kl.socialnetwork.domain.models.viewModels.user.UserAllViewModel;
-import kl.socialnetwork.domain.models.viewModels.user.UserCreateViewModel;
-import kl.socialnetwork.domain.models.viewModels.user.UserDetailsViewModel;
-import kl.socialnetwork.services.UserService;
-import kl.socialnetwork.utils.responseHandler.exceptions.BadRequestException;
-import kl.socialnetwork.utils.responseHandler.exceptions.CustomException;
-import kl.socialnetwork.utils.responseHandler.successResponse.SuccessResponse;
-import kl.socialnetwork.validations.serviceValidation.services.UserValidationService;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -24,7 +24,7 @@ import java.time.LocalDateTime;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import static kl.socialnetwork.utils.constants.ResponseMessageConstants.*;
+import static by.bsu.jimba.utils.constants.ResponseMessageConstants.*;
 
 @RestController
 @RequestMapping(value = "/users")

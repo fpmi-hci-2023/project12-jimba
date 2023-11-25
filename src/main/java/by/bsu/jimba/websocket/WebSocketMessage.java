@@ -1,4 +1,4 @@
-package by.bsu.jimba.web.websocket;
+package by.bsu.jimba.websocket;
 
 import java.time.LocalDateTime;
 

@@ -1,7 +1,7 @@
 package by.bsu.jimba.validations.serviceValidation.servicesImpl;
 
-import kl.socialnetwork.domain.entities.Picture;
-import kl.socialnetwork.validations.serviceValidation.services.PictureValidationService;
+import by.bsu.jimba.domain.entities.Picture;
+import by.bsu.jimba.validations.serviceValidation.services.PictureValidationService;
 import org.springframework.stereotype.Component;
 
 @Component

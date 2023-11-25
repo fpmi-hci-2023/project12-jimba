@@ -1,17 +1,17 @@
-package by.bsu.jimba.services.servicesImpl;
+package by.bsu.jimba.services.impl;
 
-import kl.socialnetwork.domain.entities.User;
-import kl.socialnetwork.domain.entities.UserRole;
-import kl.socialnetwork.domain.models.serviceModels.UserServiceModel;
-import kl.socialnetwork.domain.models.viewModels.user.UserCreateViewModel;
-import kl.socialnetwork.domain.models.viewModels.user.UserDetailsViewModel;
-import kl.socialnetwork.domain.models.viewModels.user.UserEditViewModel;
-import kl.socialnetwork.repositories.RoleRepository;
-import kl.socialnetwork.repositories.UserRepository;
-import kl.socialnetwork.services.LoggerService;
-import kl.socialnetwork.services.UserService;
-import kl.socialnetwork.utils.responseHandler.exceptions.CustomException;
-import kl.socialnetwork.validations.serviceValidation.services.UserValidationService;
+import by.bsu.jimba.domain.entities.User;
+import by.bsu.jimba.domain.entities.UserRole;
+import by.bsu.jimba.domain.models.serviceModels.UserServiceModel;
+import by.bsu.jimba.domain.models.viewModels.user.UserCreateViewModel;
+import by.bsu.jimba.domain.models.viewModels.user.UserDetailsViewModel;
+import by.bsu.jimba.domain.models.viewModels.user.UserEditViewModel;
+import by.bsu.jimba.repositories.RoleRepository;
+import by.bsu.jimba.repositories.UserRepository;
+import by.bsu.jimba.services.LoggerService;
+import by.bsu.jimba.services.UserService;
+import by.bsu.jimba.utils.responseHandler.exceptions.CustomException;
+import by.bsu.jimba.validations.serviceValidation.services.UserValidationService;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -26,7 +26,7 @@ import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-import static kl.socialnetwork.utils.constants.ResponseMessageConstants.*;
+import static by.bsu.jimba.utils.constants.ResponseMessageConstants.*;
 
 @Service
 @Transactional

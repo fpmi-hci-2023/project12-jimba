@@ -1,6 +1,6 @@
 package by.bsu.jimba.validations.annotations;
 
-import kl.socialnetwork.domain.models.bindingModels.user.UserRegisterBindingModel;
+import by.bsu.jimba.domain.models.bindingModels.user.UserRegisterBindingModel;
 import org.springframework.stereotype.Component;
 
 import javax.validation.ConstraintValidator;

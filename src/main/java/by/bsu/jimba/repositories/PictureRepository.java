@@ -1,6 +1,6 @@
 package by.bsu.jimba.repositories;
 
-import kl.socialnetwork.domain.entities.Picture;
+import by.bsu.jimba.domain.entities.Picture;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

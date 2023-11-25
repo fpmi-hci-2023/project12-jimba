@@ -1,10 +1,10 @@
 package by.bsu.jimba.config;
 
+import by.bsu.jimba.filters.JwtAuthenticationFilter;
+import by.bsu.jimba.filters.JwtAuthorizationFilter;
+import by.bsu.jimba.services.LoggerService;
+import by.bsu.jimba.services.UserService;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import kl.socialnetwork.services.LoggerService;
-import kl.socialnetwork.services.UserService;
-import kl.socialnetwork.web.filters.JwtAuthenticationFilter;
-import kl.socialnetwork.web.filters.JwtAuthorizationFilter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.actuate.autoconfigure.security.servlet.EndpointRequest;
 import org.springframework.context.annotation.Bean;

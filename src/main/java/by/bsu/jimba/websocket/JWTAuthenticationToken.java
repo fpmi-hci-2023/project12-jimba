@@ -1,10 +1,10 @@
-package by.bsu.jimba.web.websocket;
+package by.bsu.jimba.websocket;
 
-
-import kl.socialnetwork.domain.entities.User;
+import by.bsu.jimba.domain.entities.User;
 import org.springframework.security.authentication.AbstractAuthenticationToken;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.GrantedAuthority;
+
 
 import java.util.Collection;
 

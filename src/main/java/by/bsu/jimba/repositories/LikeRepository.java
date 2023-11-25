@@ -1,8 +1,8 @@
 package by.bsu.jimba.repositories;
 
-import kl.socialnetwork.domain.entities.Like;
-import kl.socialnetwork.domain.entities.Post;
-import kl.socialnetwork.domain.entities.User;
+import by.bsu.jimba.domain.entities.Like;
+import by.bsu.jimba.domain.entities.Post;
+import by.bsu.jimba.domain.entities.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
