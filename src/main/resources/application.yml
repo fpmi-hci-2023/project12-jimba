@@ -1,0 +1,42 @@
+spring:
+    datasource:
+        driverClassName: com.mysql.cj.jdbc.Driver
+        url: jdbc:mysql://localhost:3306/social_network?useSSL=false&createDatabaseIfNotExist=true&serverTimezone=UTC
+        username: root
+        password:
+    jpa:
+        properties:
+            hibernate:
+                dialect: org.hibernate.dialect.MariaDBDialect
+                format_sql: true
+        hibernate:
+            ddl-auto: update
+    servlet:
+        multipart:
+            enabled: true
+            file-size-threshold: 2KB
+            max-file-size: 200MB
+            max-request-size: 215MB
+
+### File Storage Properties
+## All files uploaded through the REST API will be stored in this directory
+file:
+    upload-dir: ./uploads
+
+
+#Show SQL executed with parameter bindings
+logging:
+    level:
+        org:
+            hibernate: 
+                SQL: DEBUG
+                type:
+                    descriptor: TRACE
+                    
+server:
+    port: 8000
+
+cloudinary:
+    cloud_name: dflqkx0sq
+    api_key: 921221377918625
+    api_secret: uhHq4p-Y-PkVWkjp2lj5uIEeMvI
