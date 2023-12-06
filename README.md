@@ -20,10 +20,13 @@ best social network for you and your friends! let's connect and do jijiji ;)
 [lab 2](https://docs.google.com/document/d/1oniuyefeO0XOvwl_CQPU8Qlrrr-RKDpxt5qE_gMgJV4/edit?usp=sharing) - starting to get how it gonna look ( ͡° ᴥ ͡°)
 
 
-[lab 3](https://docs.google.com/document/d/1kWqeSSTxu8S86wuvR4b6jofXutwA1Nnj_oOhBFOo4Eo/edit?usp=sharing) - ﻿kinda creating our design
+[lab 3](https://docs.google.com/document/d/1kWqeSSTxu8S86wuvR4b6jofXutwA1Nnj_oOhBFOo4Eo/edit?usp=sharing) - ﻿kinda creating our design (҂◡_◡) ᕤ
 
 
 [lab 4] - in progress...
+
+
+[lab 5](https://docs.google.com/document/d/1y8cN5BkajavC7HzhD7gHycZhwUG9YlCUoxFFoDOBAy0/edit?usp=sharing) - sort of analyzing you and your behavior (̿▀̿ ̿Ĺ̯̿̿▀̿ ̿)̄
 
 # usage
 just have fun! 
