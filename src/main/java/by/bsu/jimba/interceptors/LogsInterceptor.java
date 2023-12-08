@@ -19,7 +19,7 @@ public class LogsInterceptor extends HandlerInterceptorAdapter {
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
         String authorizationHeader = request.getHeader("Authorization");
 
-        if(authorizationHeader != null){
+        if(authorizationHeader != null && request.getUserPrincipal() != null){
             String method = request.getMethod();
 
             if((method.equals("POST")|| method.equals("PUT") || method.equals("DELETE")) && !request.getRequestURI().endsWith("error")){
