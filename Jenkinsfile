@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                git 'https://github.com/fpmi-hci-2023/project12-jimba.git'
+                git credentialsId: 'jenkins-jimba-pat', url: 'https://github.com/fpmi-hci-2023/project12-jimba.git'
                 sh './mvnw clean compile'
             }
         }
