@@ -4,7 +4,7 @@ on:
   pull_request:
     branches:
       - main
-      - foltrex/dev
+#      - foltrex/dev
   workflow_dispatch:
 
 jobs:
