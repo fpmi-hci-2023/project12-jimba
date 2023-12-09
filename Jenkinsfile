@@ -10,12 +10,12 @@ pipeline {
         }
         stage('Test') {
             steps {
-                sh 'test'
+                sh "./mvnw '-Dtest=by.bsu.jimba.*.*Tests' test"
             }
 
             post {
                 always {
-                    junit '**/target/surfire-reports/TEST-*.xml'
+                    junit '**/target/surefire-reports/TEST-*.xml'
                 }
             }
         }
