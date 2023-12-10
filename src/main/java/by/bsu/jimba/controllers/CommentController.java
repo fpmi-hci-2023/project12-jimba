@@ -6,6 +6,10 @@ import by.bsu.jimba.utils.constants.ResponseMessageConstants;
 import by.bsu.jimba.utils.responseHandler.exceptions.CustomException;
 import by.bsu.jimba.utils.responseHandler.successResponse.SuccessResponse;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.responses.ApiResponse;
+import io.swagger.v3.oas.annotations.responses.ApiResponses;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -18,6 +22,8 @@ import java.util.concurrent.CompletableFuture;
 
 import static by.bsu.jimba.utils.constants.ResponseMessageConstants.*;
 
+
+@Tag(name = "Comment", description = "The Comment API")
 @RestController()
 @RequestMapping(value = "/comment")
 public class CommentController {
@@ -31,6 +37,13 @@ public class CommentController {
         this.objectMapper = objectMapper;
     }
 
+    @Operation(summary = "create comment", tags = "comment")
+    @ApiResponses(value = {
+            @ApiResponse(
+                    responseCode = "200",
+                    description = "Create comment"
+            )
+    })
     @PostMapping(value = "/create")
     public ResponseEntity<Object> createComment(@RequestBody @Valid CommentCreateBindingModel commentCreateBindingModel) throws Exception {
         boolean comment = this.commentService.createComment(commentCreateBindingModel);

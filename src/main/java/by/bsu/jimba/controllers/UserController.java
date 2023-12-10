@@ -12,6 +12,13 @@ import by.bsu.jimba.utils.responseHandler.exceptions.CustomException;
 import by.bsu.jimba.utils.responseHandler.successResponse.SuccessResponse;
 import by.bsu.jimba.validations.serviceValidation.services.UserValidationService;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.media.ArraySchema;
+import io.swagger.v3.oas.annotations.media.Content;
+import io.swagger.v3.oas.annotations.media.Schema;
+import io.swagger.v3.oas.annotations.responses.ApiResponse;
+import io.swagger.v3.oas.annotations.responses.ApiResponses;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -26,6 +33,7 @@ import java.util.stream.Collectors;
 
 import static by.bsu.jimba.utils.constants.ResponseMessageConstants.*;
 
+@Tag(name = "User", description = "The User API")
 @RestController
 @RequestMapping(value = "/users")
 public class UserController {
@@ -45,6 +53,13 @@ public class UserController {
     }
 
     @PostMapping(value = "/register", consumes = MediaType.APPLICATION_JSON_VALUE)
+    @Operation(summary = "register user", tags = "user")
+    @ApiResponses(value = {
+            @ApiResponse(
+                    responseCode = "200",
+                    description = "Register the user"
+            )
+    })
     public ResponseEntity<Object> registerUser(@RequestBody @Valid UserRegisterBindingModel userRegisterBindingModel) throws Exception {
 
         if (!userValidationService.isValid(userRegisterBindingModel.getPassword(), userRegisterBindingModel.getConfirmPassword())) {
@@ -63,6 +78,17 @@ public class UserController {
         return new ResponseEntity<>(this.objectMapper.writeValueAsString(successResponse), HttpStatus.OK);
     }
 
+    @Operation(summary = "Gets all users", tags = "user")
+    @ApiResponses(value = {
+            @ApiResponse(
+                    responseCode = "200",
+                    description = "Found the users",
+                    content = {
+                            @Content(
+                                    mediaType = "application/json",
+                                    array = @ArraySchema(schema = @Schema(implementation = UserAllViewModel.class)))
+                    })
+    })
     @GetMapping(value = "/all/{id}")
     public List<UserAllViewModel> getAllUsers(@PathVariable(value = "id") String userId) throws Exception {
         List<UserServiceModel> allUsers = this.userService.getAllUsers(userId);
