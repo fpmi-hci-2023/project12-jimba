@@ -1,14 +1,14 @@
-spring:
-  datasource:
-    driverClassName: org.h2.Driver
-    url: jdbc:h2:mem:myDb
-  jpa:
-    properties:
-      hibernate:
-#        dialect: org.hibernate.dialect.H2Dialect
-        globally_quoted_identifiers: true
-    hibernate:
-      ddl-auto: update
+#spring:
+#  datasource:
+#    driverClassName: org.h2.Driver
+#    url: jdbc:h2:mem:myDb
+#  jpa:
+#    properties:
+#      hibernate:
+##        dialect: org.hibernate.dialect.H2Dialect
+#        globally_quoted_identifiers: true
+#    hibernate:
+#      ddl-auto: update
 ######################################################
 
 ##Enter your Cloudinary Credentials

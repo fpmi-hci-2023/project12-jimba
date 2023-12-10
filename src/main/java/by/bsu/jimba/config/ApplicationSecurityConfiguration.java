@@ -49,7 +49,7 @@ public class ApplicationSecurityConfiguration
                 .disable()
                 .authorizeRequests()
                 .antMatchers("/users/register",
-//                        "/**",
+                        "/**",
                         "/favicon.ico",
                         "/**/*.png",
                         "/**/*.gif",
@@ -57,7 +57,9 @@ public class ApplicationSecurityConfiguration
                         "/**/*.jpg",
                         "/**/*.html",
                         "/**/*.css",
-                        "/**/*.js"
+                        "/**/*.js",
+                        "/v3/api-docs",
+                        "/v2/api-docs"
                 ).permitAll()
                 .antMatchers(
                         "/users/details/*",
