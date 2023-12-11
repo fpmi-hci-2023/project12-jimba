@@ -28,6 +28,10 @@ best social network for you and your friends! let's connect and do jijiji ;)
 
 [lab 5](https://docs.google.com/document/d/1y8cN5BkajavC7HzhD7gHycZhwUG9YlCUoxFFoDOBAy0/edit?usp=sharing) - sort of analyzing you and your behavior (̿▀̿ ̿Ĺ̯̿̿▀̿ ̿)̄
 
+[lab 6](https://docs.google.com/document/d/1sv5kou_A6Hb1gS6e4jtKkGCLqTOpr2pD2OCnsEyd8Fs/edit?usp=sharing) - backend
+
+[lab 7](https://docs.google.com/document/d/13_mRbwABC95XJWbgZFo1UVsYNycJ0lXqkTfM-lLbrco/edit?usp=sharing) - frontend
+
 # usage
 just have fun! 
 
