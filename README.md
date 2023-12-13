@@ -23,7 +23,7 @@ best social network for you and your friends! let's connect and do jijiji ;)
 [lab 3](https://docs.google.com/document/d/1kWqeSSTxu8S86wuvR4b6jofXutwA1Nnj_oOhBFOo4Eo/edit?usp=sharing) - ﻿kinda creating our design (҂◡_◡) ᕤ
 
 
-[lab 4] - in progress...
+[lab 4](https://docs.google.com/document/d/1K9ghFMBh-Gjl4QUK2-0d3JvlB8Z9zQ6XR6LcvLR1WJ8/edit?usp=sharing) - prototype
 
 
 [lab 5](https://docs.google.com/document/d/1y8cN5BkajavC7HzhD7gHycZhwUG9YlCUoxFFoDOBAy0/edit?usp=sharing) - sort of analyzing you and your behavior (̿▀̿ ̿Ĺ̯̿̿▀̿ ̿)̄
