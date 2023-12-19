@@ -1,4 +1,4 @@
-<img width="951" alt="image" src="https://github.com/fpmi-hci-2023/project12-jimba/assets/79499149/43eb3d23-dcff-4618-8023-997fd2ec70e1">### Welcome to our silly documentation for the Jimba project! 
+### Welcome to our silly documentation for the Jimba project! 
 
  Probably, none of us will enjoy it but anyways let's take a look of what we have here...
 
@@ -7,14 +7,20 @@
 
 - [Additional specification](#additional-specification)
 - [API](#api)
-- [Application file diagram](#application-file-diagram)
 - [Database scheme](#database-scheme)
 - [Functional requirements](#functional-requirements)
+- [Static Structure diagram](#static-structure-diagram)
 - [Presentation](#presentation)
 
 ----
 
 ## Additional specification
+**Security**
+Implemented with Spring Security
+
+<img width="871" alt="image" src="https://github.com/fpmi-hci-2023/project12-jimba/assets/79499149/aa98f9bd-2479-4a90-9866-c4d870e9de18">
+
+After authorization the user is given a JWT token in cookie file and when moving to the next component, access to the component is determined depending on the user whose data is in the token
 
 ## API
 <p>Controller with swagger documentation</p>
@@ -39,22 +45,11 @@
 <p>Login</p>
 <img width="1032" alt="image" src="https://github.com/fpmi-hci-2023/project12-jimba/assets/79499149/d062dc01-45cc-4e01-bcd1-27381462ba2e">
 
-
-## Static Structure diagram diagram
-<img width="895" alt="image" src="https://github.com/fpmi-hci-2023/project12-jimba/assets/79499149/57feec94-5d55-42ca-93ce-4af7758f2270">
-
-
 ## Database scheme
 <img width="951" alt="image" src="https://github.com/fpmi-hci-2023/project12-jimba/assets/79499149/df52823d-4ff9-48e4-9d3d-bba59ff0c704">
 
 SQL dump script:
 [SQL](https://pastebin.com/QaJY9WWA)
-
-## Security
-<p>Реализовано с помощью Spring Security</p>
-<img width="871" alt="image" src="https://github.com/fpmi-hci-2023/project12-jimba/assets/79499149/aa98f9bd-2479-4a90-9866-c4d870e9de18">
-
-<p>После авторизации пользователю сетится JWT токен в куки и при переходе на очередной компонент в реакт доступ к компоненту определяется в зависимости от пользователя, чьи данные в токене</p>
 
 ## Functional requirements
 
@@ -67,6 +62,9 @@ What you can do:
 Here are some of ours use case diagrams (main functions for default user):
 ![](https://github.com/fpmi-hci-2023/project12-jimba/assets/76448401/dfbe9d9e-f22d-46d4-a4b4-d97e2c6b1526)
 ![](https://github.com/fpmi-hci-2023/project12-jimba/assets/76448401/58548574-0710-43f2-8704-2121914d82a0)
+
+## Static Structure diagram
+<img width="895" alt="image" src="https://github.com/fpmi-hci-2023/project12-jimba/assets/79499149/57feec94-5d55-42ca-93ce-4af7758f2270">
 
 ## Presentation
 
