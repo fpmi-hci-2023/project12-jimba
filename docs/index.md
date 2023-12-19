@@ -16,6 +16,7 @@
 
 ## Additional specification
 **Security**
+
 Implemented with Spring Security
 
 <img width="871" alt="image" src="https://github.com/fpmi-hci-2023/project12-jimba/assets/79499149/aa98f9bd-2479-4a90-9866-c4d870e9de18">
@@ -23,22 +24,27 @@ Implemented with Spring Security
 After authorization the user is given a JWT token in cookie file and when moving to the next component, access to the component is determined depending on the user whose data is in the token
 
 ## API
-<p>Controller with swagger documentation</p>
+### Controller with swagger documentation:
+
 <img width="622" alt="image" src="https://github.com/fpmi-hci-2023/project12-jimba/assets/79499149/e2579fc5-8dfd-4084-8db9-47ce6f231761">
 
-<p>Result in postman of the method above:</p>
+Result in postman of the method above:
+
 <img width="622" alt="image" src="https://github.com/fpmi-hci-2023/project12-jimba/assets/79499149/e67c851c-cdd8-490f-be21-022bf7f6d657">
 
-<p>Controller for registration users:</p>
+### Controller for registration users:
+
 <img width="621" alt="image" src="https://github.com/fpmi-hci-2023/project12-jimba/assets/79499149/0ee08465-f07d-4277-b030-33e4cb486472">
 
-<p>Controller with post operation:</p>
+### Controller with post operation:
+
 <img width="620" alt="image" src="https://github.com/fpmi-hci-2023/project12-jimba/assets/79499149/eba3dd3f-c513-45bc-bdcf-c50721c29b77">
 
-<p>Controller with message operation</p>
+### Controller with message operation:
+
 <img width="619" alt="image" src="https://github.com/fpmi-hci-2023/project12-jimba/assets/79499149/a7687813-cda8-462a-a130-71d132161008">
 
-<p>Postman'n result of the methods above:</p>
+**Postman'n result of the methods above:**
 <p>User registration</p>
 <img width="1031" alt="image" src="https://github.com/fpmi-hci-2023/project12-jimba/assets/79499149/7e9d5ed7-d588-4884-b731-57adbb3fc941">
 
@@ -60,10 +66,13 @@ What you can do:
 - post pictures
 
 Here are some of ours use case diagrams (main functions for default user):
+
 ![](https://github.com/fpmi-hci-2023/project12-jimba/assets/76448401/dfbe9d9e-f22d-46d4-a4b4-d97e2c6b1526)
+
 ![](https://github.com/fpmi-hci-2023/project12-jimba/assets/76448401/58548574-0710-43f2-8704-2121914d82a0)
 
 ## Static Structure diagram
+
 <img width="895" alt="image" src="https://github.com/fpmi-hci-2023/project12-jimba/assets/79499149/57feec94-5d55-42ca-93ce-4af7758f2270">
 
 ## Presentation
